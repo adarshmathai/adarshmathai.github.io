@@ -1,0 +1,23 @@
+{
+  "name": "adarshmathai.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o stylesheet.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarshmathai/adarshmathai.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarshmathai/adarshmathai.github.io/issues"
+  },
+  "homepage": "https://github.com/adarshmathai/adarshmathai.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.12"
+  }
+}

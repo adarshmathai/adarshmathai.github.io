@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <title>Adarsh Mathai</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <title>Document</title>
 </head>
-<body class="bg-gray-100 px-2"><!--class="bg-blue-50"-->
+<body class="bg-gray-100 px-2">
     <header class="text-gray-900 bg-white body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
@@ -22,62 +23,384 @@
             <a class="mr-5 hover:text-gray-400">Skills</a>
             <a class="mr-5 hover:text-gray-400">Hobbies</a>
           </nav>
-          <button class="inline-flex items-center font-bold bg-white text-black border-2 border-black py-1 px-3 rounded focus:outline-none hover:bg-black hgray-400text-white rounded text-base mt-4 md:mt-0">
+          <button class="inline-flex items-center font-bold bg-white text-black border-2 border-black py-1 px-3 rounded focus:outline-none hover:bg-black hgray-400 hover:text-white rounded text-base mt-4 md:mt-0">
               Contact Me
           </button>
         </div>
-      </header>
-<hr>
+    </header>
 
-<section class="text-gray-600 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hi I'm
-          <br class="hidden lg:inline-block">Adarsh Mathai
-        </h1>
-        <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-        <div class="flex justify-center">
-          <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Me</button>
-          <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
-        </div>
-      </div>
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="Image/MainImage.jpg">
-      </div>
-    </div>
-  </section>
 
-  <hr>
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
 
-  <section class="text-gray-600 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col">
-        <div class="h-1 bg-gray-200 rounded overflow-hidden">
-          <div class="w-24 h-full bg-indigo-500"></div>
-        </div>
-        <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-          <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">M.Tech Project</h1>
-          <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Development and Hardware Implementation of Sensor Fusion Algorithm to Improve the Estimation of Aerial Robot Position and Orientation</p>
-        </div>
-      </div>
 
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-        <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1203x503">
+
+    <section class="text-gray-600 body-font">
+      <div class="container mx-auto flex px-5 pt-24 pb-16 flex-wrap-reverse md:flex-nowrap items-center">
+        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center pt-5 md:pt-0">
+          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hi I'm
+            <br class="hidden lg:inline-block">Adarsh Mathai
+          </h1>
+          <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+          <div class="flex justify-center">
+            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Contact Me</button>
+            <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> -->
           </div>
-          <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Development and Hardware Implementation of Sensor Fusion Algorithm to Improve the Estimation of Aerial Robot Position and Orientation</h2>
-          <p class="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-          <a class="text-indigo-500 inline-flex items-center mt-3">Learn More
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </a>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img class="object-cover object-center rounded" alt="hero" src="Image/MainImage.jpg">
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
+  
 
 
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-3/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">M.Tech Project</h1>
+            <p class="sm:w-2/5 leading-relaxed text-base sm:pl-20 pl-0">Under the Guidance of Prof. Vivek Sangwan  |  Lab: INDUS Lab, IIT Bombay</p>
+          </div>
+        </div>
+  
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-full sm:mb-0 mb-6">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="Image/Mtechpro.jpg">
+            </div>
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Development and Hardware Implementation of Sensor Fusion Algorithm to Improve the Estimation of Aerial Robot Position and Orientation</h2>
+            <ul class="text-base leading-relaxed mt-2 list-disc pl-6">
+              <li>Currently working on the implementation of a computationally efficient and accurate sensor fusion algorithm that obeys the manifold constraints and outputs the optimally accurate data to calculate the position and attitude of aerial robots.</li>
+              <li>Implemented Rotation matrix integration method that stays within the manifold constraints, thus avoiding any singularities that may occur due to parametrization of attitude.</li>
+              <li>Analyzed the noise parameters of IMUs for easier integration of the measured data in the future.</li>
+              <li>Implemented a nonlinear complementary filter (Mahony filter), in Simulink and a microcontroller (teensy 4.0) and analyzed the error and convergence data obtained.</li>
+              <li>Future works include classification and analysis of IMUs, developing a custom filter that operates on rotation matrix (as opposed to other algorithms that operate on its parameters), optimizing the algorithm for the given set of IMUs, and implementing the algorithm in a multirotor aerial robot.</li>
+            </ul>      
+            <!--<a class="text-indigo-500 inline-flex items-center mt-3">Learn More
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
+  
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-3/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Other Projects</h1>
+            <p class="sm:w-2/5 leading-relaxed text-base sm:pl-20 pl-0">A list of major projects and course projects that I have taken over the course of my academia</p>
+          </div>
+        </div>
+  
+        <!-- Projects Start -->
+        
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Mahesh M S</span>
+                <span class="mt-1 text-gray-500 text-sm">[Aug-Dec 2019]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Flutter Analysis of a wing with store and flap</h2>
+                <p class="leading-relaxed">Done the analysis of aeroelastic flutter of an aerofoil, to find the modal frequency and modal damping characteristics and calculate the flutter point.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Suryakumar S</span>
+                <span class="mt-1 text-gray-500 text-sm">[May-July 2018]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Study of minimal surfaces and their structural strength</h2>
+                <p class="leading-relaxed">Done the 3D model design and study of voronoids, gyroids and other minimal surfaces that can be used for material reduction in products without significantly affecting strength</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Course Projects Start -->
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Dnyanesh Pawaskar</span>
+                <span class="mt-1 text-gray-500 text-sm">[Aug-Dec 2021]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Vibration optimization of a passive suspension system via Genetic Algorithm</h2>
+                <p class="leading-relaxed">Calculated the optimal values of passive suspension parameters using Genetic Algorithm, which uses numerical simulation to calculate the cost function value.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Amit Sethi</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2021]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Detection of American Sign Language Letters using Machine Learning</h2>
+                <p class="leading-relaxed">Collected and organized a dataset and combined it with available online datasets to train convolutional neural network to recognize sign language letters using webcam and analyzed the accuracies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Arpita Sinha</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2021]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Spatial Scheduling of Informative Meetings for Multi-Agent Persistent</h2>
+                <p class="leading-relaxed">Implemented the algorithms from the paper by Ravi N. Haksar in MATLAB, that enables drones to communicate with each other during aggressive forest fires with limited range and time.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Anirban Guha</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2021]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Static, kinematic and dynamic analysis of Klann linkage</h2>
+                <p class="leading-relaxed">Developed MATLAB codes for kinematic and static analysis of Klanns Linkage. Dynamic analysis of the same was done using MSC ADAMS and the results are verified with the MATLAB results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Pradeep Yemula</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2017]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Development of a cost effective Home Automation Control Hub</h2>
+                <p class="leading-relaxed">Developed an affordable Arduino based control hub that that can be operated using app over internet, voice commands as well as manual overrides using physical switches.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Mahesh M S</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2018]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Design, Analysis and fabrication of a foldable cycle</h2>
+                <p class="leading-relaxed">Designed and fabricated a single axis foldable cycle That can be mass licensed by colleges having large campus area, resulting in less usage of parking space.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Nishant Dongari</span>
+                <span class="mt-1 text-gray-500 text-sm">[Aug-Dec 2018]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Study on Double-paned windows</h2>
+                <p class="leading-relaxed">Done the analysis of heat transfer and temperature distribution of different geometries of double-paned windows and study of the acquired data to find the optimum and most energy-efficient thickness of the air gap for the windows for different parameters.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Ashok Kumar Pandey</span>
+                <span class="mt-1 text-gray-500 text-sm">[Aug-Dec 2018]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Analysis of a newer design of MEMS Microphone diaphragms</h2>
+                <p class="leading-relaxed">Done the stiffness and frequency analysis and study of a novel ‘frog-arms’ design of MEMS microphone diaphragm with uniform deflection and reduced air damping.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Guide: Dr. Ashok Kumar Pandey</span>
+                <span class="mt-1 text-gray-500 text-sm">[Jan-May 2018]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Study on ABS Braking System</h2>
+                <p class="leading-relaxed">Modeled a robust ABS braking system on Simulink and found out optimal parameters required according to publicly available Breaking data.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
+  
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-3/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Internship</h1>
+            <p class="sm:w-2/5 leading-relaxed text-base sm:pl-20 pl-0"></p>
+          </div>
+        </div>
+  
+        <!-- Internship Start -->
+        
+        <div class="container px-0 pt-1 pb-8 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col pt-1">
+                <span class="font-semibold title-font text-gray-700">Supervisor:  Joseph K.J.</span>
+                <span class="mt-1 text-gray-500 text-sm">[May-Jun 2019]</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">F.A.C.T, Kochi, Kerala, India</h2>
+                <p class="leading-relaxed"> In-plant training. Worked in Heavy Duty Workshop, NPK Plant, Phosphoric Acid Plant, Sulphuric Acid Plant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
+  
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-3/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Achievements</h1>
+            <p class="sm:w-2/5 leading-relaxed text-base sm:pl-20 pl-0"></p>
+          </div>
+        </div>
+  
+        <!-- Achievements Start list-disc pl-6 -->
+        
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-full sm:mb-0 mb-6">
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Rank 1 in Design Engineering and Rank 3 in Mechanical Engineering at IIT Bombay</h2>
+            <ul class="text-base leading-relaxed mt-2">
+              <li></li>
+            </ul>      
+          </div>
+        </div>
+
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-full sm:mb-0 mb-6">
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">National Talent Search Examination Scholar</h2>
+            <ul class="text-base leading-relaxed mt-2">
+              <li>received scholarship given to the top 1000 students of India of each year</li>
+            </ul>      
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+    <hr>
+  
+
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-16 mx-auto">
+        <div class="flex flex-col">
+          <div class="h-1 bg-gray-200 rounded overflow-hidden">
+            <div class="w-24 h-full bg-indigo-500"></div>
+          </div>
+          <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
+            <h1 class="sm:w-3/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Positions of Responsibilities</h1>
+            <p class="sm:w-2/5 leading-relaxed text-base sm:pl-20 pl-0"></p>
+          </div>
+        </div>
+  
+        <!-- Achievements Start list-disc pl-6 -->
+        
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-full sm:mb-0 mb-6">
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">Rank 1 in Design Engineering and Rank 3 in Mechanical Engineering at IIT Bombay</h2>
+            <ul class="text-base leading-relaxed mt-2">
+              <li></li>
+            </ul>      
+          </div>
+        </div>
+
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+          <div class="p-4 md:w-full sm:mb-0 mb-6">
+            <h2 class="text-xl font-medium title-font text-gray-900 mt-5">National Talent Search Examination Scholar</h2>
+            <ul class="text-base leading-relaxed mt-2">
+              <li>received scholarship given to the top 1000 students of India of each year</li>
+            </ul>      
+          </div>
+        </div>
+
+      </div>
+    </section>
+    
 </body>
 </html>
