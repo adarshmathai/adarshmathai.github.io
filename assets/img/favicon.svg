@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 70 70">
+  <rect x="0" y="0" width="70" height="70" rx="10" ry="10" fill="#890a0c"/>
+  <path d="
+    M13 13 
+    L13 63 
+    L23 63 
+    L23 43 
+    L33 43 
+    L33 53 
+    L43 53 
+    L43 23 
+    L53 23 
+    L53 33 
+    L63 33 
+    L63 13 
+    Z
+
+    M23 23 
+    L33 23 
+    L33 33 
+    L23 33 
+    Z" fill="#300001" fill-rule="evenodd"/>
+  <path d="
+    M10 10 
+    L10 60 
+    L20 60 
+    L20 40 
+    L30 40 
+    L30 50 
+    L40 50 
+    L40 20 
+    L50 20 
+    L50 30 
+    L60 30 
+    L60 10 
+    Z
+
+    M20 20 
+    L30 20 
+    L30 30 
+    L20 30 
+    Z" fill="#ffffff" fill-rule="evenodd"/>
+</svg>

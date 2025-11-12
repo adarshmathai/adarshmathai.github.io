@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1550 1789" width="1550" height="1789">
+	<title>HEXA-B</title>
+	<style>
+		.s0 { fill: #8cd4db } 
+		.s1 { fill: #9cd750 } 
+		.s2 { fill: #3c98be } 
+	</style>
+	<g id="g10">
+		<g id="g12">
+			<path id="path28" class="s0" d="m0 1341.2h516.5l-129.1-223.6z"/>
+			<path id="path30" class="s0" d="m1032.9 1341.2l516.1-894-774.5 447.2v446.8z"/>
+			<path id="path32" class="s1" d="m774.5 1788l774.5-446.8h-516.1z"/>
+			<path id="path34" class="s1" d="m387.4 1117.6l387.1-223.2v-894l-516.5 894z"/>
+			<path id="path36" class="s1" d="m516.5 1341.2l258 446.8v-446.8z"/>
+			<path id="path38" class="s0" d="m0 447.2v894l258-446.8z"/>
+			<path id="path40" class="s2" d="m1549 447.2l-516.1 894h516.1z"/>
+			<path id="path42" class="s2" d="m774.5 894.4l-387.1 223.2 129.1 223.6h258z"/>
+			<path id="path44" class="s2" d="m774.5 0.4l-774.5 446.8 258 447.2z"/>
+		</g>
+	</g>
+</svg>
